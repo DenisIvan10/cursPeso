@@ -1,23 +1,76 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
-*.pyo
-.venv/
-.pytest_cache/
+*.py[cod]
+*$py.class
 
-# Node
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking / lint
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Node / Frontend
+# =========================
 node_modules/
 dist/
+build/
+coverage/
 
-# Local environment
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment variables
+# =========================
 .env
+.env.*
+!.env.example
 
-# Local data and generated outputs
+# =========================
+# Local data / outputs
+# =========================
 data/raw/*.csv
 data/processed/*.json
+
 outputs/models/
 outputs/reports/
 
-# IDE
+# =========================
+# Ignore personal / extra folders
+# =========================
+A-EXTRA/
+
+# =========================
+# IDE / Editor
+# =========================
 .vscode/
 .idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Git
+# =========================
+*.swp
+*.swo
