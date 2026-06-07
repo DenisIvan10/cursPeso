@@ -38,7 +38,7 @@ Mandatory rules:
 | Target project folder | `C:\OwnProjects\cursPeso` |
 | Frontend | React |
 | Backend | FastAPI or Flask; recommendation: FastAPI |
-| Data source file | `C:\Users\divan\OneDrive - ENDAVA\Desktop\date_converted.csv` |
+| Data source file | `C:\Users\Desktop\date_converted.csv` |
 | CSV value column | User says `value`; attached CSV has `Value`, so implementation should normalize it to `value` internally |
 | Currency scope | MXN only |
 | Existing app | None; start from zero |
