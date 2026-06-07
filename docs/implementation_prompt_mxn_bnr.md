@@ -74,7 +74,7 @@ Build an MXN BNR exchange-rate application that can:
 Attached CSV:
 
 ```text
-C:\Users\divan\OneDrive - ENDAVA\Desktop\date_converted.csv
+C:\Users\Desktop\date_converted.csv
 ```
 
 Observed structure:
